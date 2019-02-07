@@ -1,3 +1,4 @@
 $(window).on("scroll",function(){
-    console.log("Scroll");
+    let positionY = $(this).scrollTop();
+    console.log(positionY);
 })

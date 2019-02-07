@@ -29,3 +29,17 @@ height: 400px;
 .block:nth-child(even){
     background-color: rgb(60, 60, 148);
 }
+#scrolltotop{
+    position: fixed;
+    bottom: 100px;
+    right: 100px;
+    height: 100px;
+    width: 100px;
+    background: red;
+    color: white;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4em;
+}
