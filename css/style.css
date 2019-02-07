@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #515151;
+}
+/* ul{
+   
+} */
+li{
+    list-style: none;
+    font-size: 30px;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+.block{
+height: 400px;
+}
+.block:nth-child(odd){
+    background-color: rgb(81, 81, 129);
+}
+.block:nth-child(even){
+    background-color: rgb(60, 60, 148);
+}
